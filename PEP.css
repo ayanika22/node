@@ -1,0 +1,50 @@
+*{
+    background-color: #dad7d7;
+
+    
+
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+#body{
+
+    margin-top: 50px; 
+    margin-left: 50vh;
+    margin-right: 50vh;
+    padding: 50px;
+    border: 2px solid #000;
+    display: grid;
+    justify-content: center;
+}
+
+#form-container{
+    display:block;
+}
+
+#task-list::after{
+    border-bottom: 1px solid black;
+}
+
+input{
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+button{
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #952e2e;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #952e2e;
+}
+
+#task-list{
+    color: #000;
+    
+}
